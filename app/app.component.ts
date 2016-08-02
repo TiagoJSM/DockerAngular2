@@ -3,6 +3,8 @@ import { HeroService }     from './hero.service';
 import { HeroDetailComponent } from './hero-detail.component';
 import { ROUTER_DIRECTIVES } from '@angular/router';
 
+import './rxjs-extensions';
+
 @Component({
   selector: 'my-app',
   template: `
