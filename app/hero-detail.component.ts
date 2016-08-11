@@ -4,7 +4,10 @@ import { ActivatedRoute } from '@angular/router';
 import { HeroService } from './hero.service';
 import { Hero } from './hero';
 
+import { MyUppercasePipe } from './my-uppercase.pipe';
+
 @Component({
+  pipes: [MyUppercasePipe],
   selector: 'my-hero-detail',
   templateUrl: 'app/hero-detail.component.html',
   styleUrls: ['app/hero-detail.component.css']
